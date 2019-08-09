@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Exercise</title>
+
+  <!-- Load Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Load Font Awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Load our stylesheet -->
+  <link href="styles.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+<!-- Code goes here. -->
+<!-- Create a full-width navbar using nav classes. -->
+<!-- Add a brand. -->
+<!-- Make About, Contact and Shop on the left.
+ -->
+<!--  Make Login, Favorite Melons, Settings and Profile on the right.
+ -->
+
+
+    <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            Ubermelon 
+          </a>
+          <ul class="navbar-nav bd-navbar-nav flex-row">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li> 
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+              </li>    
+          </ul>
+
+          <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Favorite Melons</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Settings</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+              </li>
+          </ul>
+    </nav>
+
+ <!--    Arrange content using rows and columns. -->
+
+<!--     You should have:
+
+    A row containing the main section content in a centered column (Hint: you can use an offset or centering utility with Bootstrap).
+    A row containing three columns with the features information.
+    Add Font Awesome icons to the headers of the columns (Hint: you can search for icons in the font awesome docs).
+    A row with a table that’s only visible on medium and large devices.
+    Add the image of your choice to the top of the page.
+    With all of these rows, account for sm, md, and lg device sizes
+ -->
+    <div class="row">
+        <div class="col-2 offset-5"> 
+            <img id="melon-picture" src="melon_pic.jpg">
+        </div>
+        <div class="col-5 offset-5">
+            <p id="melon-homepage-text">We deliver only the highest quality domestic and exotic melons from local, independent farmers from around the world. Our melons are delivered quickly with the greatest care. We guarantee every order, every time.</p>
+        </div>
+    </div>
+
+    <div clss="row">
+        <div class="col-4">
+            <h3>Award Winning</h3>
+            <p>Don't take our word for it, See all the awards our melons have earned.</p>
+
+        </div>
+        <div class="col-4">
+            <h3>Huge Selection</h3>
+            <p>We import melons from all over the world, ensuring we have every melon you could possibly desire.</p>
+        </div>
+        <div class="col-4">
+            <h3>Certified Sustainable</h3>
+            <p>Our melons are sourced only from sustainable, organic local farmers. These are the healthiest melons you'll ever eat.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+<!-- You need this in order to use JS-based components in the 
+further study. Leave this at the bottom and code above it. -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

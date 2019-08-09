@@ -1,0 +1,21 @@
+
+nav {
+    background-color: #b5c15e;
+}
+
+nav .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+}
+
+nav .navbar-brand {
+    color: black;
+    font-weight: bold;
+
+}
+
+#melon-picture, #melon-homepage-text{
+    width: 20em;
+    margin: 0.5em;
+}
